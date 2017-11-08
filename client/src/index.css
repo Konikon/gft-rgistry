@@ -1,0 +1,26 @@
+.wholebg {
+  background-image: url('http://rs246.pbsrc.com/albums/gg86/bttrflysky/rainbow.gif?w=280&h=210&fit=crop');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between
+}
+
+.footer{
+  background-image: url('http://cdn.free-power-point-templates.com/wp-content/uploads/2010/06/665_example.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

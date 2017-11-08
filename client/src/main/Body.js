@@ -1,9 +1,11 @@
 import React from "react";
+import GifteeFormContainer from "./giftee-form/Container";
 
 function Body(){
   return(
-    <div>
-      Hi From Body!
+    <div className="nav">
+    
+      <GifteeFormContainer />
     </div>
   )
   /* body container Switch in submit button to graph component */
