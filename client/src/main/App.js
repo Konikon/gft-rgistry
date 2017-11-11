@@ -10,12 +10,12 @@ import GifteesComponent from "./Component";
 
 function App(){
     return(
-        <div >
+        <div className="app">
             <Header />
             <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/add" component={Body} />
-            <Route path="/see" component={GifteesComponent}/>
+              <Route exact path="/" component={Home} />
+              <Route path="/add" component={Body} />
+              <Route path="/see" component={GifteesComponent}/>
             </Switch >
             <Footer />
         </div>

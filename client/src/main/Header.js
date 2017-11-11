@@ -6,7 +6,7 @@ function Header(){
           <div className="nav">
               <Link to="/">Home </Link>
               <Link to="/add"> Add Giftee</Link>
-              <Link to="/see"> See added giftees </Link>
+              <Link to="/see"> See added gifts </Link>
           </div>
       )
 }

@@ -7,19 +7,38 @@
   flex-direction: column;
   width: 100%;
   margin: auto;
-  justify-content: space-between
+  justify-content: space-between;
+  text-align: center
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 80%;
   margin: auto;
   justify-content: space-between
 }
 
 .footer{
   background-image: url('http://cdn.free-power-point-templates.com/wp-content/uploads/2010/06/665_example.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+  }
+
+.app{
+  background-image: url('http://1.bp.blogspot.com/-vQQecDwbaI8/UBqyUyBF3II/AAAAAAAAF1c/mFECGJezmXU/s1600/free+digital+scrapbook+paper_blue+and+white+stripes_background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  /*height: 100vh;*/
+  flex-direction: column;
+  justify-content: space-between
+}
+
+.gifteeList{
+  background-image: url('https://i.pinimg.com/originals/c3/c8/5a/c3c85a47e300b75276bb41151aa099c2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

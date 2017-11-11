@@ -3,9 +3,9 @@ import React from "react";
 function GifteeFormComponent(props){
 
   return(
-    <div>
+    <div className="bodybg">
         <h1> Add new person/giftee to the list </h1>
-        <h3> Giftee </h3>
+        <h3> Giftee </h3> <p> name, relation and b_day </p>
           <div >
             <form onSubmit={props.addNewGiftee}>
                 <input type="text"
@@ -27,7 +27,7 @@ function GifteeFormComponent(props){
                       onChange={props.handleChange}/>
                       <button type="submit"> Add Giftee </button>
 
-                <h5>Enter events to add for this person</h5>
+                <p>Enter events to add for this person</p>
                 <input type="checkbox"
                         name="e1" />
                 <input type="text"
@@ -38,7 +38,7 @@ function GifteeFormComponent(props){
                       placeholder="remind date"
                       value={props.newGiftee.remindDate}
                       onChange={props.handleChange}/>
-
+                <br/>
                 <input type="checkbox"
                         name="e2"/>
                 <input type="text"

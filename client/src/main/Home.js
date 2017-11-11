@@ -9,10 +9,10 @@ function Home(){
           <br/>
           <br/>
           <h1>
-          gft rgstr
+          gft rmndr
           </h1>
           <br/>
-          <br/>
+          <p><b>"Never miss a gift occasion & keep a track of gifts"</b></p>
           <br/>
 
 

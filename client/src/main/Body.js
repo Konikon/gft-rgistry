@@ -3,8 +3,7 @@ import GifteeFormContainer from "./giftee-form/Container";
 
 function Body(){
   return(
-    <div className="nav">
-    
+    <div >
       <GifteeFormContainer />
     </div>
   )
