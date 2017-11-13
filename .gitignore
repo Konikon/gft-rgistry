@@ -1,3 +1,11 @@
 /node_modules
 .DS_Store
+node_modules/
+.DS_Store
+*.log
+.DS_Store?
+*.iso
+*.jar
+*.tar
+*.zip
 
